@@ -1,0 +1,334 @@
+
+@media screen and (max-width: 1199px) {
+.design {
+		padding-top: 100px;
+		padding-bottom: 20px;
+}
+.design__title {
+	font-size: 30px;
+	margin-bottom: 30px;	
+}
+.design__text {
+	margin-bottom: 50px;
+}
+.design__text-rotate {
+	font-size: 130px;
+	top: 180px;
+	left: -340px;
+}
+.header {
+	padding-top: 150px;
+}
+.button {
+	margin-bottom: 170px;
+}
+.call-to-action {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.cta__text {
+	margin-bottom: 30px;
+}
+a.btn__cta {
+	width: 155px;
+	height: 55px;
+	margin-left: 25px;
+}
+.card-price__body {
+	padding-top: 0;
+}
+.posts {
+	padding-top: 50px;
+	padding-bottom: 60px; 
+}
+.posts__title {
+	margin-bottom: 50px;
+}
+.post-blocks {
+	margin-bottom: 40px;
+}
+.post-blocks__img {
+text-align: center;
+}
+.post-blocks_date {
+	left: 45px;
+	bottom: 41px;
+}
+.post-blocks_title {
+	margin-top: 0px;
+}
+.post-blocks__info {
+	padding-left: 45px;
+}
+.progress__info span {
+	padding-right: 15px;
+}
+.project {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.decor {
+	margin: 20px auto;
+}
+.expertise {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.expertise__title {
+margin-bottom: 30px;
+}	
+.creative__photo img {
+	max-width: 100%;
+}
+.decor-frame {
+max-height: 80%;
+}
+.accordion {
+	margin-bottom: 40px;
+}
+.progress__info span {
+	padding-right: 15px;
+}
+.creative {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.preferance {
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+.team {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.price-package {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.contact-us {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+.footer__social-icons {
+	margin-bottom: 50px;
+}
+.footer {
+	padding-top: 50px;
+}
+}
+
+@media screen and (max-width: 991px) {
+.logo-bar {
+	text-align: center;
+}
+.logo {
+	margin: 10px auto;
+}
+nav {
+	justify-content: center;
+}
+.menu-top {
+	padding-top: 0;
+	padding-right: 25px;	
+	margin-bottom: 5px;
+}
+.menu-top__item a {
+	padding-left: 25px;
+}
+.header__title {
+	font-size: 70px;
+}
+.button {
+	margin-bottom: 80px;
+}
+.design {
+	padding-top: 50px;
+}
+.design__text {
+	margin-bottom: 30px;
+}
+.project {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.expertise {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.expertise__title {
+margin-bottom: 30px;
+}	
+.accordion {
+	margin-bottom: 40px;
+}
+.progress__info span {
+	padding-right: 15px;
+}
+.creative {
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+.creative__title {
+	margin-bottom: 15px;
+	font-size: 28px;
+	line-height: 34px;
+}
+.creative__text {
+	margin-bottom: 15px;
+}
+.creative__photo img {
+	max-width: 100%;
+}
+.decor-frame {
+	width: 65%;
+	max-height: 50%;
+}
+.preferance {
+	padding: 50px 0;
+}
+.preferance img {
+	margin-bottom: 25px;
+}
+.preferance__title {
+	margin-bottom: 0;
+}
+.preferance p {
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.team .container {
+	max-width: 100%;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.team .row > div {
+padding: 10px;
+}
+.price {
+	padding-top: 55px;
+}
+.card-price__head {
+padding-top: 15px;
+padding-bottom: 5px;
+}
+.card-price__text-price span {
+	flex-grow: 40;
+}
+.card-price__title {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.card-price__body ul li {
+	padding: 10px 0;
+}
+.post-blocks_date {
+	left: 0;	
+}
+.post-blocks__info {
+padding-left: 0px;
+} 
+.posts {
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+.top-info__contact {
+	justify-content: center;
+}
+.top-info__contact i{
+	padding-right: 5px;
+}
+.top-info__social a {
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+.logo {
+		margin-bottom: 10px;
+		margin-left: 0;
+} 
+.logo-bar {
+	display: flex;
+	align-items: center;
+}	
+.menu-burger{
+	display: block;
+	cursor: pointer;
+	margin-right: 20px;
+	font-size: 30px;
+}
+nav {
+	display: none;
+} 
+
+.menu-top {
+	padding-top: 5px;
+	padding-left: 0;
+	}
+
+.menu-top__item-search {
+	margin: 5px 0 5px 30px;
+	max-width: 130px;
+	display: none;
+}
+.header__text {
+	font-size: 20px;	
+}
+.header__title {
+	font-size: 54px;
+	white-space: nowrap;
+	margin-bottom: 20px;
+}
+.header__subtext {
+	margin-bottom: 35px;
+}
+.button {
+	margin-bottom: 60px;
+}
+}
+
+@media screen and (max-width: 575px)  {
+	.container-content {
+		max-width: 515px;
+	}
+.team {
+		padding-top: 60px;
+		padding-bottom: 60px;
+}
+.logo {
+	margin: 20px auto 20px 20px;
+}
+.menu-top {
+	padding-top: 5px;
+	padding-left: 25px;
+}
+.top-info__contact a {
+	padding: 6px 18px;	
+}
+.top-info__social a{
+	padding: 0 5px;
+}
+.header .container{
+	max-width: 320px;
+}
+.team img {
+     margin-bottom: 15px;
+}
+.top-info .row {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.top-info__contact {
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+
+.top-info__social {
+		justify-content: center;
+}
+}
+}

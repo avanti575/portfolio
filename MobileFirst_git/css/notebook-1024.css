@@ -1,0 +1,52 @@
+@media (min-width: 1024px) {
+  .top-slider__item {
+    min-height: 668px;
+  }
+  .top-slider__title {
+    padding-top: 107px;
+    font-size: 96px;
+    line-height: 96px;
+    letter-spacing: 2px;
+    max-width: 750px;
+  }
+  .top-slider__text {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .call__box {
+    max-width: 695px;
+  }
+  .services {
+    padding: 50px 0px;
+  }
+  .services__head {
+    padding-left: 40px;
+  }
+  .services__title {
+    margin-bottom: 60px;
+  }
+  .services__descr {
+    padding-bottom: 46px;
+    margin-bottom: 40px;
+  }
+  .services__text {
+    margin-bottom: 32px;
+    max-width: 608px;
+  }
+  .services__item {
+    width: 25%;
+    min-height: 285px;
+  }
+  .services__item:nth-child(2), .services__item:nth-child(6) {
+    border-right: none;
+  }
+  .services__item:hover {
+    margin: 0px;
+    padding: 15px;
+  }
+  .services__item:hover .services__item-inner {
+    min-height: 255px;
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=notebook-1024.css.map */
