@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,EAAE,SAAS,EAAE,KAAK;EACtB,AAAA,UAAU,CAAC;IACT,OAAO,EAAE,MAAM;GAChB;EAEE,AAAD,cAAQ,CAAC;IACP,UAAU,EAAE,KAAK;GAClB;EAEH,AAAA,WAAW,CAAC;IACV,WAAW,EAAE,IAAI;GAClB",
+    "sources": [
+        "../scss/media/tablet-320.scss"
+    ],
+    "names": [],
+    "file": "tablet-320.css"
+}
