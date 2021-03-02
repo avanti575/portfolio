@@ -279,6 +279,7 @@
 .team {
   padding: 20px 0 40px;
   text-align: center;
+
   &__images {
     width: 100%;
     margin-bottom: 40px;
@@ -289,9 +290,7 @@
     margin-bottom: 23px;
   }
   &__text {
-    margin-bottom: 84px;
-    width: 583px;
-    margin: 0 auto;
+    margin: 0 auto 84px;
   }
   &__btn {
     border: none;
@@ -325,9 +324,8 @@
     position: relative;
     margin-bottom: 20px;
   }
-  &__item-img img {
-    max-width: 100%;
-    height: auto;
+  &__item-img {
+    position: relative;
   }
 
   &__item-title {
@@ -368,16 +366,16 @@
 
   &__item:hover {
     cursor: pointer;
-    margin-bottom: 50px;
     .news__item-inner {
       opacity: 1;
       border-top-left-radius: 4px;
       border-top-right-radius: 4px;
       border-bottom-left-radius: 4px;
       border-bottom-right-radius: 4px;
+      height: inherit;
     }
     .news__item-link {
-      display: none;
+      opacity: 0;
     }
   }
 }
@@ -455,7 +453,6 @@
   background-color: $accent;
   color: #fff;
   letter-spacing: 2px;
-  line-height: 20px;
   text-align: center;
   position: relative;
   &__inner {
@@ -465,9 +462,11 @@
   &__logo {
     position: absolute;
     top: -30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     width: 230px;
     padding: 0px 70px 5px;
-    margin: 0 25px;
     background-color: $accent;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
@@ -477,43 +476,53 @@
     line-height: 22px;
     margin-bottom: 40px;
   }
-  &__info-titles {
+  &__info-title {
     text-transform: uppercase;
     font-size: 18px;
     line-height: 21px;
     @extend %robotocondensed-700;
     margin-bottom: 24px;
   }
+
   &__social {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 40px;
-    & a {
+    position: relative;
+    &-icons {
       margin-bottom: 16px;
+      & img {
+        width: 25px;
+        height: 25px;
+      }
     }
   }
-  // .info-location__address {
-  //   margin: 0 75px;
-  // }
-  &__info-contacts {
-    margin-bottom: 40px;
-    & a {
-      display: block;
+  &__info-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .footer__contacts {
+      line-height: 20px;
+      margin-bottom: 40px;
     }
-  }
 
-  &__info-location {
-    margin-bottom: 40px;
-  }
-  &__info-assist {
-    margin-bottom: 40px;
-  }
-  &__info-menu {
-    margin-bottom: 25px;
+    .footer__location {
+      line-height: 20px;
+      margin-bottom: 40px;
+    }
+    .footer__assist {
+      line-height: 20px;
+      margin-bottom: 40px;
+    }
+    .footer__menu {
+      margin-bottom: 25px;
+      line-height: 20px;
+    }
   }
 }
+/*SECTION FOOTER END*/
 .button__toTop {
   padding: 55px 20px;
   display: flex;
@@ -527,8 +536,6 @@
     margin-bottom: 20px;
   }
 }
-/*SECTION FOOTER END*/
-
 /*MEDIA-QUERIES*/
 
 @import "./media/tablet-640";
