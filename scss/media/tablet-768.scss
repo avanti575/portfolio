@@ -50,7 +50,8 @@
 
   //SECTION SERVICES START
   .services {
-    padding: 50px 0px;
+    padding-top: 50px;
+    padding-bottom: 80px;
     &__head {
       padding: 0 40px;
     }
@@ -147,12 +148,7 @@
 
   //SECTION NEWS START
   .news {
-    padding: 40px 0 50px;
     &__title {
-      margin-bottom: 50px;
-    }
-
-    &__item:hover {
       margin-bottom: 50px;
     }
   }
@@ -169,4 +165,35 @@
     }
   }
   /*SECTION QUOTES END*/
+
+  /*SECTION FOOTER START*/
+  .footer {
+    padding-top: 115px;
+    padding-bottom: 50px;
+    &__title {
+      text-align: left;
+      font-size: 36px;
+      line-height: 32px;
+    }
+    &__info-inner {
+      .footer__location {
+        padding-left: 0px;
+      }
+      .footer__menu {
+        padding-left: 0px;
+      }
+    }
+  }
+  /*SECTION FOOTER END*/
+  .button__toTop {
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    &-text {
+      margin-right: 25px;
+      margin-bottom: 0;
+    }
+  }
 }

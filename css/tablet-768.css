@@ -43,7 +43,8 @@
     margin-bottom: 0;
   }
   .services {
-    padding: 50px 0px;
+    padding-top: 50px;
+    padding-bottom: 80px;
   }
   .services__head {
     padding: 0 40px;
@@ -134,13 +135,7 @@
   .team__btn {
     font-size: 18px;
   }
-  .news {
-    padding: 40px 0 50px;
-  }
   .news__title {
-    margin-bottom: 50px;
-  }
-  .news__item:hover {
     margin-bottom: 50px;
   }
   /*SECTION QUOTES START*/
@@ -152,5 +147,42 @@
     line-height: 34px;
   }
   /*SECTION QUOTES END*/
+  /*SECTION FOOTER START*/
+  .footer {
+    padding-top: 115px;
+    padding-bottom: 50px;
+  }
+  .footer__title {
+    text-align: left;
+    font-size: 36px;
+    line-height: 32px;
+  }
+  .footer__info-inner .footer__location {
+    padding-left: 0px;
+  }
+  .footer__info-inner .footer__menu {
+    padding-left: 0px;
+  }
+  /*SECTION FOOTER END*/
+  .button__toTop {
+    padding: 10px 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .button__toTop-text {
+    margin-right: 25px;
+    margin-bottom: 0;
+  }
 }
 /*# sourceMappingURL=tablet-768.css.map */

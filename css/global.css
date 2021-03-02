@@ -87,10 +87,20 @@ a {
   color: inherit;
 }
 
+a,
+span {
+  display: block;
+}
+
 img,
 figure,
 blockquote {
   margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 body {

@@ -28,8 +28,6 @@
 
   //SECTION SERVICES START
   .services {
-    padding-top: 50px;
-    padding-bottom: 0px;
     &__head {
       padding-left: 40px;
     }
@@ -56,8 +54,8 @@
       }
       &:hover {
         margin: 0px;
-        padding: 15px;
         .services__item-inner {
+          padding: 25px 15px 20px;
           min-height: 255px;
           height: 100%;
         }
@@ -150,10 +148,6 @@
       font-size: 18px;
       line-height: 21px;
     }
-
-    &__item:hover {
-      margin-bottom: 30px;
-    }
   }
   //SECTION NEWS END
 
@@ -178,4 +172,27 @@
     }
   }
   /*SECTION QUOTES END*/
+
+  /*SECTION FOOTER START*/
+  .footer {
+    padding-top: 160px;
+    padding-bottom: 115px;
+    &__title {
+      margin-bottom: 80px;
+      max-width: 760px;
+    }
+
+    &__social {
+      margin-bottom: 80px;
+    }
+    &__info-inner {
+      flex-wrap: nowrap;
+    }
+    &__location {
+      padding-left: 0px;
+    }
+    &__menu {
+      padding-left: 0px;
+    }
+  }
 }
