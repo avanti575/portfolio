@@ -900,7 +900,7 @@ body {
   margin-bottom: 20px;
 }
 
-/*MEDIA-QUERIES*/
+/*MEDIA-QUERIES START*/
 @media (min-width: 640px) {
   .header__inner {
     min-height: 100px;
@@ -1213,6 +1213,7 @@ body {
     margin-bottom: 0px;
   }
   /*SECTION FOOTER END*/
+  /*BUTTON TO TOP */
   .button__toTop {
     padding: 10px 15px;
     display: -webkit-box;
@@ -1401,6 +1402,7 @@ body {
     padding-left: 0px;
   }
   /*SECTION FOOTER END*/
+  /*BUTTON TO TOP */
   .button__toTop {
     padding: 10px 15px;
     display: -webkit-box;
@@ -1609,6 +1611,7 @@ body {
   .footer__menu {
     padding-left: 0px;
   }
+  /*BUTTON TO TOP */
 }
 
 @media (min-width: 1440px) {
@@ -1822,5 +1825,6 @@ body {
   .footer__inner {
     padding: 0 80px;
   }
+  /*BUTTON TO TOP */
 }
 /*# sourceMappingURL=style.css.map */
