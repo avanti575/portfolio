@@ -154,11 +154,6 @@ a {
   color: inherit;
 }
 
-a,
-span {
-  display: block;
-}
-
 img,
 figure,
 blockquote {
@@ -892,6 +887,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-color: #f9f6e5;
+}
+
+.button__toTop-arrow {
+  text-align: center;
 }
 
 .button__toTop-text {

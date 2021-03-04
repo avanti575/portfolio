@@ -89,7 +89,7 @@ a {
 
 a,
 span {
-  display: block;
+  display: inline-block;
 }
 
 img,
