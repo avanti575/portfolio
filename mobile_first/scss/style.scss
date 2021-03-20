@@ -25,6 +25,7 @@
   background-color: #fff;
   border: none;
   position: relative;
+  z-index: 10;
   &::after {
     content: "";
     position: absolute;
@@ -36,6 +37,30 @@
     left: 14px;
     box-shadow: 0 4px 0 0 $accent, 0 8px 0 0 $accent;
   }
+}
+.top__menu {
+  z-index: 9;
+  position: absolute;
+  left: -350px;
+  top: 0;
+  height: 100%;
+  width: 350px;
+  padding: 120px 50px 50px 65px;
+  background-color: rgba(26, 26, 31, 0.7);
+  transition: transform 0.4s ease-in;
+  color: #fff;
+  font-size: 24px;
+  &-title {
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+  &-link {
+    margin-bottom: 10px;
+  }
+}
+
+.top-menu-active {
+  transform: translateX(100%);
 }
 /*HEADER END*/
 

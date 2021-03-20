@@ -31,6 +31,13 @@ $(function () {
   });
 });
 
+//Меню слайдер
+const menuSlide = document.querySelector("#top__menu");
+const menuBtn = document.querySelector(".menu__btn");
+menuBtn.onclick = function () {
+  menuSlide.classList.toggle("top-menu-active");
+};
+
 //Кнопка наверх
 window.onload = function () {
   //window.scrollTo(x,y)
