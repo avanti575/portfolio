@@ -561,6 +561,7 @@
     @extend %robotocondensed-400;
     text-transform: uppercase;
     color: $text-color;
+    display: inline-block;
     margin-bottom: 20px;
   }
 }

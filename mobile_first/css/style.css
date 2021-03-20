@@ -933,6 +933,7 @@ body {
 .button__toTop-text {
   text-transform: uppercase;
   color: #4a4a4a;
+  display: inline-block;
   margin-bottom: 20px;
 }
 
