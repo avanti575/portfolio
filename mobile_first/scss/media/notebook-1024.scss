@@ -44,7 +44,7 @@
     }
     &__item {
       width: 25%;
-      height: 255px;
+      height: 315px;
       &:nth-child(2),
       &:nth-child(6) {
         border-right: none;
@@ -56,8 +56,6 @@
         margin: 0px;
         .services__item-inner {
           padding: 25px 15px 20px;
-          min-height: 255px;
-          height: 100%;
         }
       }
     }

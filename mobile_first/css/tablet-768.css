@@ -44,7 +44,7 @@
   }
   .services {
     padding-top: 50px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
   }
   .services__head {
     padding: 0 40px;
@@ -63,11 +63,11 @@
     text-align: left;
   }
   .services__item {
-    max-height: 288px;
+    height: 338px;
   }
   .services__item:hover {
     margin: 0px;
-    padding: 25px;
+    padding: 10px;
   }
   .services__item:hover .services__item-inner {
     min-height: 288px;

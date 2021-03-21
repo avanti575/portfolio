@@ -51,7 +51,7 @@
   //SECTION SERVICES START
   .services {
     padding-top: 50px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     &__head {
       padding: 0 40px;
     }
@@ -69,10 +69,10 @@
       text-align: left;
     }
     &__item {
-      max-height: 288px;
+      height: 338px;
       &:hover {
         margin: 0px;
-        padding: 25px;
+        padding: 10px;
         .services__item-inner {
           min-height: 288px;
         }
