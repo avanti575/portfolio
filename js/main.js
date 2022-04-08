@@ -51,13 +51,6 @@ $('.menu-burger').click(function(){
       }
       
  });
-// Меню слайдер
-// const menuToggle = document.querySelector('#top__menu');
-// const mobileNavContainer = document.querySelector('#mobile-nav')
-// menuToggle.onclick = function(){
-//     menuToggle.classList.toggle('top-menu-active');
-//     mobileNavContainer.classList.toggle('mobile-nav--active');
-// }
 
 
  // Кнопка наверх
