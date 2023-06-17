@@ -561,7 +561,7 @@ body {
 
 .global-btn::before {
   content: "";
-  background-image: url("../../img/arrow-right.svg");
+  background-image: url("../img/arrow-right.svg");
   position: absolute;
   right: 9px;
   width: 35px;
