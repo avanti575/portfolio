@@ -690,8 +690,6 @@ body {
   position: relative;
 }
 
-.no-webp .main::before{
-  background-image: url("../img/main-bg.png"); }
 
 .main::before {
   content: "";
@@ -700,6 +698,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+  background-image: url("../img/main-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1014,9 +1013,6 @@ body {
   position: relative;
 }
 
-.no-webp .testimonial::before{
-  background-image: url("../img/testimonial-bg.png"); }
-
 .testimonial::before {
   content: "";
   position: absolute;
@@ -1024,6 +1020,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+  background-image: url("../img/testimonial-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1238,11 +1235,11 @@ body {
   height: 100%;
 }
 
-.no-webp .info__img::before{
-  background-image: url("../img/content/farm.png"); }
+
 
 .info__img::before {
   content: "";
+  background-image: url("../img/content/farm.png");
   background-repeat: no-repeat;
   position: absolute;
   top: 0;
@@ -1492,8 +1489,7 @@ body {
   min-height: 320px;
 }
 
-.no-webp .subscribe::before{
-  background-image: url("../img/bg-subscribe.png"); }
+
 
 .subscribe::before {
   content: "";
@@ -1502,6 +1498,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+  background-image: url("../img/bg-subscribe.png");
   background-size: contain;
   background-repeat: no-repeat;
   z-index: -1;
@@ -1741,9 +1738,3 @@ body {
 
 /*Секция Footer end*/
 
-.webp .main::before{ background-image: url('../img/main-bg.webp'); }
-
-.webp .testimonial::before{ background-image: url('../img/testimonial-bg.webp'); }
-.webp info__img::before{ background-image: url('../img/content/farm.webp'); }
-
-.webp .subscribe::before{ background-image: url('../img/bg-subscribe.webp'); }
